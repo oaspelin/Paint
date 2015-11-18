@@ -1,0 +1,21 @@
+-"Cursorin" ohjaaminen onnistuu jollain punaisella esineell‰ esim. tuschi
+	-Itse olen k‰ytt‰nyt testaamiseen punainen stabilo kyn‰
+-"K‰yttˆliittym‰" koostuu kolmesta eri laatikoista
+	-Valikko=mik‰ muoto halutaan piirt‰‰
+	-Huom viivalle ei ole implementoitu mit‰‰n ominaisuuksia, ajattelin ett‰ se olisi ihan kivaa vaan
+-Shift=hiiren vasen
+	-Sill‰ pystyy valitsee mik‰ muoto, jonka j‰lkeen sit‰ voidaan piirt‰‰ shift painamalla
+	-"klickaamalla" ja painamalla yht‰ muotoa sit‰ voidaan siirell‰
+-CTRL=transform (scale)
+	-Painamallla sit‰ kun cursori on muodon p‰‰ll‰ muodot voidaan suurennella ja ellipsin tapauksessa myˆs muuttaa muotoa 
+-ALT= rotate
+	-Kun painettu ja cursori on muodon p‰‰ll‰ sit‰ voi rotate
+	-Siirr‰ cursori x-akselia pitkin niin t‰‰ tapahtuu
+
+
+Known bugs
+	-Uskoisin ett‰ t‰‰ riippuu siit‰ miten OS tulkitsee n‰pp‰imistˆnpainalluksia. (tulkitaanko yksi pitk‰ painallus monee eri painalluksiin jne.)
+	-Muodot v‰lill‰ eiv‰t reagoi (ALT,CTRL,SHIFT) komentoihin
+		-Jos t‰m‰ tapahtuu niin paina mink‰ tahansa hiirenn‰pp‰in ku ALT/CTRL/SHIFT
+
+T‰m‰ softa testattu windows 8.1:lla
